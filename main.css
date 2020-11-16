@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+    font-family: 'Merriweather', serif;
+}
+
+
+body{
+    background-image: url(images/Background.PNG);
+}
+
+
+
+.center {
+    text-align: center;
+    font-size: large;
+}
+
+.blocktext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75em;
+}
+
+.blocktext2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65em;
+}
+
+
+#navbar {
+background-color: rgb(255, 155, 113);
+position: fixed;
+width: 100%;
+height: 6%;
+transition: top 0.3s;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: seashell;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: coral;
+    color: black;
+}
